@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Exchange Rate Converter</title>
+    </head>
+    <body>
+        <h1>Exchange Rate Converter</h1>
+        <hr>
+        <form>
+            <p>
+                <label>Enter the US dollar amount:</label>
+                <input type="text" size="10" name="USD" id="USDvalue" value="">
+                <input type="button" name="USDbutton" id="btnUStoCA" value="Convert to Canadian Dollars">
+            </p>
+
+            <p>
+                <label>Enter the Canadian dollar amount:</label>
+                <input type="text" size="10" name="CAD" id="CADvalue" value="">
+                <input type="button" name="CADbutton" id="btnCAtoUS" value="Convert to US Dollars">
+            </p>
+
+            <input type="reset" name="reset" id="btnReset" value="Reset">
+        </form>
+
+        <script src="index.js"></script>
+    </body>
+</html>
